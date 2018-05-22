@@ -49,6 +49,12 @@ source 'https://rubygems.org'
 gem 'nokogiri'
 gem 'rack', '~> 2.0.1'
 gem 'rspec'
+gem 'geokit'
+
+group :test do
+  gem 'rspec'
+  gem 'faker'
+end
 
 
 
