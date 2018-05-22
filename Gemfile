@@ -45,6 +45,12 @@ gem 'jquery-rails'
 # This is for the database
 gem 'devise'
 
+source 'https://rubygems.org'
+gem 'nokogiri'
+gem 'rack', '~> 2.0.1'
+gem 'rspec'
+
+
 
 
 group :development, :test do
