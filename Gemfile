@@ -56,6 +56,9 @@ group :test do
   gem 'faker'
 end
 
+gem 'activeadmin'
+
+
 
 
 
