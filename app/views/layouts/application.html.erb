@@ -21,8 +21,8 @@
           <% if user_signed_in? %>
             <li class="nav-item pull-md-right"><%= link_to "Log out", signout_path, method: :delete, class: "nav-link" %></li>
           <% else %>
-            <li class="nav-item pull-md-right"><%= link_to "Sign up", new_user_registration_path, class: "nav-link mr-1" %></li>
-            <li class="nav-item pull-md-right"><%= link_to "Log in", signin_path, class: "nav-link btn btn btn-primary" %></li>
+            <li class="nav-item pull-md-right"><%= link_to "Sign up", new_user_registration_path, class: "btn btn-outline-warning" %></li>
+            <li class="nav-item pull-md-right"><%= link_to "Log in", signin_path, class: "btn btn-outline-info ml-1" %></li>
           <% end %>
         </ul>
       </div>
