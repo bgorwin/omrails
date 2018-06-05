@@ -14,7 +14,8 @@ gem 'bootstrap', '~> 4.1.1'
 gem 'jquery-rails'
 gem 'devise'
 gem 'activeadmin'
-gem 'acts_as_follower', github: 'tcocca/acts_as_follower' 
+gem 'acts_as_follower', github: 'tcocca/acts_as_follower'
+gem 'acts_as_votable', '~> 0.11.1' 
 
 
 source 'https://rubygems.org'
