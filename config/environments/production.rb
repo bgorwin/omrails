@@ -8,9 +8,9 @@ config.active_storage.service = :amazon
 #   storage: :s3,
 #   s3_credentials: {
 #     bucket: ENV.fetch('bgorwinrails'),
-#     access_key_id: ENV.fetch('AKIAI3TL6DCSDJAITWHQ'),
-#     secret_access_key: ENV.fetch('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'),
-#     s3_region: ENV.fetch('us-east-2'),
+#     access_key_id: ENV.fetch(''),
+#     secret_access_key: ENV.fetch(''),
+#     s3_region: ENV.fetch(''),
 #   }
 # }
 
