@@ -1,9 +1,88 @@
 <% if user_signed_in? %>
-  <div class="jumbotron jumbotron-home">
-      <div class="container">
-        <h1>Welcome back!</h1>
+
+
+      <div class="jumbotron jumbotron-home">
+          <div class="container">
+
+            <h1>Welcome back to Brent Gorwins Rails Product</h1>
+            <p>In this project you will see the functionality of using several GEMS that will give similar views/functionality to Twitter, Pinterst, and Reddit</p>
+            <!-- <%= link_to "Learn more »", "#", class: "btn btn-primary btn-lg" %> -->
+
+          </div>
       </div>
-  </div>
+      <div class="container">
+          <div class="row">
+              <div class="col-md-4">
+                <div class="card">
+                  <img class="card-img-top" src="assets/homePage.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <h2>Tweets</h2>
+                    <p>Click here below to view the Twitter functionality for posting a tweet and adding a image if you would like. </p>
+                    <p><%= link_to "View Tweets", tweets_path, class: "btn btn-secondary" %></p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card">
+                  <img class="card-img-top" src="assets/homePage.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <h2>Reddit</h2>
+                    <p>Click the button below to see the Items that are similar to Reddit where you can vote/unvote for a post that was created. </p>
+                    <p><%= link_to "View Reddit", items_path, class: "btn btn-secondary" %></p>
+                </div>
+              </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card">
+                  <img class="card-img-top" src="assets/homePage.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <h2>Photo Gallery</h2>
+                    <p>Click here to view photos taken by me in a gallery using ...  </p>
+                    <p><%= link_to "View details", "#", class: "btn btn-secondary" %></p>
+                </div>
+              </div>
+              </div>
+          </div>
+        </div>
+
+        <section class="bg-light my-3">
+          <div class="container">
+            <div class="row">
+              <div class="col my-3">
+                <img src="assets/homePage.jpg"  alt="" class="img-fluid rounded-circle">
+              </div>
+              <div class="col my-3">
+                <h4>About Me</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut ducimus expedita, molestiae! Amet ratione, blanditiis.</p>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col my-3">
+                <h4>About Me</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut ducimus expedita, molestiae! Amet ratione, blanditiis.</p>
+              </div>
+              <div class="col my-3">
+                <img src="assets/homePage.jpg"  alt="" class="img-fluid rounded-circle">
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <div class="section">
+          <div class="container">
+            <div class="row my-3">
+              <div class="col">
+                <h3 class="text-center">Contact</h3>
+                <h5 class="text-center"><i class="fa fa-envelope"></i> brent.gorwin@gmail.com</h5>
+                <h5 class="text-center"><i class="fa fa-github"></i> github.com/bgorwin</h5>
+                <h5 class="text-center"><i class="fa fa-instagram"></i> @brentgorwin</h5>
+                <h5 class="text-center"><i class="fa fa-twitter"></i> @brent_gorwin</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+
 <% else %>
   <div class="jumbotron jumbotron-home">
       <div class="container">
@@ -85,7 +164,4 @@
         </div>
       </div>
     </div>
-
-
-
 <% end %>
