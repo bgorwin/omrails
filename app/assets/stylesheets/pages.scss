@@ -2,12 +2,27 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-.jumbotron-home {
-    background-image: url(image_path('homePage.jpg'));
+#home {
+    background: url(image_path('homePage.jpg')) fixed;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+    height: 56rem;
+    width: 100%;
+    display: table;
+    position: relative;
+
+    .landingText {
+      padding-top: 22%;
+      text-align: center;
+    }
+
+    .paragraph {
+      text-align: center;
+    }
 }
+
+
 
 // #imageOne {
 //   background: url(image_path)
